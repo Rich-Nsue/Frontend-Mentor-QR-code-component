@@ -1,0 +1,92 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body{
+    background: linear-gradient(150deg, rgba(43, 115, 204, 0.705) 60%, rgba(17, 136, 145, 0.705) 60% );
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+#container{
+    background-color: black;
+    box-shadow: 0.5px 0.5px 20px 0 black;
+    height: auto;
+    max-width: 300px;
+    border-radius: 1em;
+
+}
+
+#container .img1{
+    width: 100%;
+    height: auto;
+    border-radius: 2em;
+    padding: 1em;
+
+
+}
+
+
+#container h1{
+    font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 30px;
+   font-size: 20px;
+   
+
+}
+
+#container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 30px;  
+    color: grey;
+}
+
+.span1{
+    color: rgba(43, 115, 204, 0.705)
+}
+
+.span2{
+    color: rgba(17, 136, 145, 0.705);
+}
+
+/*
+.classic{
+    /* Using the classic way to center a div
+    position:relative;
+    top:15%;
+    left:50%;
+    transform: translate(-50%, -0%);
+} */
+
+.footer{
+    font-size: small;
+    padding-top: 50px;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: darkmagenta;
+    transition: 0.4s ease-in-out;
+
+}
+
